@@ -1,0 +1,172 @@
+body {
+  background-color: rgb(119, 116, 116);
+  background-image: url('/images/bg.jpg');
+}
+
+.container {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  min-height: 100%;
+}
+
+.container nav {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  line-height: 150px;
+  height: 120px;
+}
+
+nav ul li {
+  display: inline-block;
+  float: right;
+  font-family: Consolas;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 600px) {
+  nav ul li {
+    font-size: 10px;
+  }
+}
+
+nav ul li:hover {
+  transform: scale(1.2);
+}
+
+a {
+  color: black;
+  margin-right: 40px;
+}
+
+a#nav_element:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: red;
+}
+
+#info {
+  position: relative;
+  margin-top: 40px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  font-family: Consolas;
+  font-size: 20px;
+}
+
+#left {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+img {
+  border-radius: 20%;
+  height: 370px;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+#right {
+  text-align: center;
+}
+
+#download_cv {
+  margin: 20px 0px;
+  font-size: 24px;
+}
+
+.more {
+  font-size: 20px;
+}
+
+.divider {
+  width: 20px;
+  height: auto;
+  display: inline-block;
+}
+
+.skills_row {
+}
+
+ul#interests {
+  list-style-type: none;
+}
+
+h3#interests {
+  margin-top: 50px;
+  font-weight: lighter;
+  background-color: rgb(221, 221, 220);
+}
+
+.cont_footer {
+  position: absolute;
+  text-align: center;
+  bottom: 10px;
+  width: 100%;
+}
+
+.row#skills {
+  padding-bottom: 100px;
+}
+
+h2#skills {
+  background-color: rgb(221, 221, 220);
+  display: block;
+  position: relative;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h3#skills {
+  text-decoration-line: none;
+  color: gray;
+  text-align: center;
+  font-weight: bold;
+}
+
+#technical_skills {
+  border-radius: 2%;
+  text-align: center;
+  list-style-type: none;
+}
+
+span#skills {
+  display: block;
+  position: relative;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #000000;
+  line-height: 20px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.progress {
+  height: 10px;
+}
+
+.progress-bar {
+  transition-duration: 5s;
+}
+
+#skills_col {
+  border-right: 2px solid rgb(228, 225, 225);
+}
+
+#other_skills {
+  margin-top: 20px;
+  font-size: 20px;
+  list-style-type: none;
+  text-align: center;
+
+  line-height: 40px;
+}
+
+#other_skills li:nth-child(even) {
+  color: gray;
+}
