@@ -1,6 +1,6 @@
 body {
   background-color: rgb(119, 116, 116);
-  background-image: url('/images/bg.jpg');
+  background-image: url('/images/bg2.jpg');
 }
 
 .container {
@@ -45,7 +45,6 @@ a {
 a#nav_element:hover {
   text-decoration: none;
   cursor: pointer;
-  color: red;
 }
 
 #info {
